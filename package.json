@@ -1,0 +1,19 @@
+{
+  "name": "aurelia-bakery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkrdovrgs/aurelia-bakery.git"
+  },
+  "author": "Ricardo Vargas <rkrdo.vrgs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkrdovrgs/aurelia-bakery/issues"
+  },
+  "homepage": "https://github.com/rkrdovrgs/aurelia-bakery#readme"
+}
