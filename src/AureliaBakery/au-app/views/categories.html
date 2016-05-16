@@ -1,0 +1,12 @@
+﻿<template>
+    <li>
+        <a href="#/categories">
+            All
+        </a>
+    </li>
+    <li repeat.for="category of categories">
+        <a href="#/categories/${category.id}">
+            ${category.name}
+        </a>
+    </li>
+</template>

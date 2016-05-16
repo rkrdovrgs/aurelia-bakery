@@ -1,0 +1,16 @@
+﻿body {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.side-bar .categories li {
+  padding: 20px 0 5px;
+  border-bottom: solid 1px #AAAAAB;
+}
+.side-bar .categories li:hover {
+  background-color: #F8F8F8;
+}
+.products .product-details {
+  margin-top: 10px;
+}
+.products img {
+  height: 150px;
+}
