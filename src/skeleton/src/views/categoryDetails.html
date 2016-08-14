@@ -1,0 +1,14 @@
+﻿<template>
+    <h2>${category.name}</h2>
+    <div class="row products">
+        <div class="col-xs-12 col-md-4" repeat.for="product of products">
+            <a href="#/productDetails/${product.id}" class="thumbnail">
+                <img src.bind="product.img" />
+                <div class="product-details">
+                    <label>${product.name}</label>
+                    <span class="pull-right">$${product.price}</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</template>

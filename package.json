@@ -25,16 +25,12 @@
     },
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.1",
-      "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-beta.1.2.5",
-      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.4",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.5",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
-      "lodash": "npm:lodash@^4.12.0",
-      "redpelicans/aurelia-material": "github:redpelicans/aurelia-material@master"
+      "lodash": "npm:lodash@^4.13.1"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "typescript": "npm:typescript@^1.6.2"
     }
   }
 }
