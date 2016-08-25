@@ -3,7 +3,10 @@ import {inject} from 'aurelia-framework';
 
 @inject(DataService)
 export class CategoryDetails {
-    constructor(dataservice) {
+    products;
+    category;
+
+    constructor(private dataservice) {
         this.dataservice = dataservice;
     }
 

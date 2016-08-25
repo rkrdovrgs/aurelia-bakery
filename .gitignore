@@ -235,7 +235,4 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 src/AureliaBakery/jspm_packages/
-src/AureliaBakery/old/
-src/AureliaBakery/wwwroot/jspm_packages/
-src/AureliaBakery/wwwroot/dist/
-src/AureliaBakery/wwwroot/
+src/AureliaBakery/dist/

@@ -8,7 +8,7 @@ export class PageObject_Skeleton {
     return browser.getTitle();
   }
 
-  navigateTo(href: string) {
+  navigateTo(href) {
     element(by.css('a[href="' + href + '"]')).click();
     return browser.waitForRouterComplete();
   }

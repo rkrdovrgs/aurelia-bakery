@@ -5,7 +5,7 @@
     "rootDir": "src/",
     "sourceMap": true,
     "target": "es5",
-    "module": "amd",
+    "module": "system",
     "declaration": false,
     "noImplicitAny": false,
     "noResolve": true,
@@ -19,12 +19,10 @@
     "./test/**/*.ts",
     "./typings/index.d.ts",
     "./custom_typings/**/*.d.ts",
-    "./wwwroot/jspm_packages/**/*.d.ts"
+    "./jspm_packages/**/*.d.ts"
   ],
   "exclude": [
-    "node_modules",
-    "typings/main",
-    "typings/main.d.ts"
+    "node_modules"
   ],
   "atom": {
     "rewriteTsconfig": false

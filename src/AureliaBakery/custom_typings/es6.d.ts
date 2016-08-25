@@ -1,4 +1,4 @@
-declare type PropertyKey = string | number | symbol;
+﻿declare type PropertyKey = string | number | symbol;
 
 interface Symbol {
     /** Returns a string representation of an object. */

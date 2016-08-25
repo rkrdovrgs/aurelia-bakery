@@ -1,5 +1,4 @@
 ﻿import 'bootstrap';
-import 'lodash';
 
 import {viewLocatorConfig } from 'config/viewLocatorConfig';
 import {inject } from "aurelia-framework";

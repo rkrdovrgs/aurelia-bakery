@@ -1,4 +1,6 @@
 ﻿export class Shell {
+    router;
+
     configureRouter(config, router) {
         this.router = router;
         config.title = "Aurelia Bakery";
